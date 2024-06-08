@@ -1,0 +1,40 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    margin: 10px 10px;
+    width: 200px;
+    background-color: #6958c8;
+    color: #fff;
+    box-sizing: border-box;
+    position: fixed;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-left: 200px;
+    text-align: justify;
+    font-size: x-large;
+}
+
+.sidebar a {
+    display: block;
+    color: #f0d7d7;
+    text-decoration: none;
+    padding: 10px;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.sidebar a:hover {
+    background-color: #2980b9;
+}
